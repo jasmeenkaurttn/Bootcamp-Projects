@@ -186,9 +186,10 @@ p.paragraph {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-left: 70px;
+    margin-left: 15rem;
     margin-right: 70px;
     margin-bottom: 50px;
+    width: 60rem;
 }
 
 .service1, .service2, .service3,.service4, .service5, .service6{
@@ -197,10 +198,11 @@ p.paragraph {
     background-color: #f8f9fa;
     width: 5px;
     margin: 9px;
+    margin-left: 35px;
 }
 
 .icon {
-    margin: 2rem;
+    margin: 4rem;
 }
 .icon-text {
     margin: 2rem;
@@ -330,6 +332,15 @@ footer h4{
 
 footer .address .paragraph_{
     margin-top: 1rem;
+    color: #38414b;
+}
+footer .address p.color{
+    color: #38414b;
+}
+
+footer .address img{
+    width: 14rem;
+    margin-top: 1rem;
 }
 
 footer .links h4{
@@ -338,6 +349,10 @@ footer .links h4{
 footer .links ul li{
     list-style: none;
     margin: 9px;
+    color: #38414b;
+} 
+footer .links ul li i{
+    font-size:large;
 }
 footer .our-services h4{
     margin-bottom: 1rem;
@@ -345,7 +360,9 @@ footer .our-services h4{
 footer .our-services ul li{
     list-style: none;
     margin: 9px;
+    color: #38414b;
 }
+
 footer .newsletter h4{
     margin-bottom: 1rem;
 }
