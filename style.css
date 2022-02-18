@@ -108,7 +108,9 @@ select#about {
     padding-right: 28px;
 }
 .three-dots{
-    
+    text-align: center;
+    margin-top: 28rem;
+
 }
 
 .dot{
@@ -118,5 +120,38 @@ select#about {
     background-color: #da3936;
     display: inline-block;
     margin: 0.01rem;
-    left: 20px;
+}
+
+.grey-color{
+    background-color: #aaa8aa;
+}
+
+.about{
+    display: flex;
+    flex: 50%;
+    justify-content: space-between;
+    padding: 30px;
+}
+.left{
+    margin: 3px;
+    width: 80rem;
+}
+.left p{
+    padding-top: 19px;
+}
+
+.right{
+    margin: 3px;
+}
+.right p{
+    margin-bottom: 7px;
+}
+.right ul {
+    padding-top: 7px;
+    list-style: none;
+    margin-bottom: 7px;
+}
+
+p.paragraph {
+    font-style: italic;
 }
