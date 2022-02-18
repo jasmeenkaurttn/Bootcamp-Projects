@@ -1,4 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+
+.header {
+    margin-top: 0;
+}
+.navbar {
+    width: 98%;
+    margin: 0px 5px;
+    /* padding: 35px 0; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar #logo{
+    width: 5rem;
+    margin: 10px;
+    margin-left: 38px;
+    cursor: pointer;
+}
+
+select#about {
+    padding: 3px;
+    border: none;
+    background-color: #fff;
+}
+.navbar ul {
+    float: right;
+}
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+.navbar ul li a:hover{
+    background-color: #da3936;
+    border-radius: 3px;
+    color: #fff;
+}
+.navbar ul li a#home {
+    color: #da3936;
+}
+.navbar ul li a#home:hover {
+    color: #fff;
+}
+
+.btn-navbar {
+    border: none;
+    border-radius: 3px;
+    background-color: #da3936;
+    padding: 10px;
+    padding-left: 19px;
+    padding-right: 19px;
+    color: #fff;
+    font-size: 17px;
+}
+
+.btn-navbar:hover {
+    background-color: #e66967;
+}
+
+.banner {
+    width: 98.5vw;
+    height: 60rem;
+    background: url('./assets/banner.jpg') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    position: relative;
+}
+
+.middle-text{
+    text-align: center;
+    padding-top: 4rem;
+}
+
+.banner h3 {
+    padding-top: 15rem;
+    font-size: 22px;
+    color: #fff;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+.banner p {
+    font-size: 14px;
+    padding: 0rem 10rem;
+    padding-top: 1rem;
+    padding-bottom: 15px;
+}
+
+.banner .btn-navbar {
+    margin-top: 29px;
+    padding-left: 28px;
+    padding-right: 28px;
+}
+.three-dots{
+    
+}
+
+.dot{
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: #da3936;
+    display: inline-block;
+    margin: 0.01rem;
+    left: 20px;
 }
