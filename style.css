@@ -155,3 +155,133 @@ select#about {
 p.paragraph {
     font-style: italic;
 }
+
+.images{
+    background-color: #f8f9fa;
+    margin: 4px;
+    display: flex;
+    justify-content: space-around;
+    padding: 4px;
+    margin-bottom: 2rem;
+}
+
+.images .img1 {
+    height: 5rem;
+}
+.images .img2 {
+    height: 5rem;
+}
+.images .img3 {
+    margin-top: 10px;
+    height: 4rem;
+}
+.images .img4 {
+    height: 5rem;
+}
+.images .img5 {
+    height: 4.5rem;
+}
+
+.services{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 50px;
+}
+
+.service1, .service2, .service3,.service4, .service5, .service6{
+    display: flex;
+    flex: 45%;
+    background-color: #f8f9fa;
+    width: 5px;
+    margin: 9px;
+}
+
+.icon {
+    margin: 2rem;
+}
+.icon-text {
+    margin: 2rem;
+}
+
+.icon-text h5{
+    margin-bottom: 1rem;
+}
+
+.gallery-container{
+    
+}
+
+.menu-bar ul {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-bar ul li {
+    text-align: center;
+    list-style: none;
+    margin: 20px;
+    padding: 7px;
+}
+
+.menu-bar ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu-bar ul li a:hover{ 
+    color: #fff;
+    border-radius: 4px;
+    background-color: #da3936;
+    padding: 9px;
+}
+
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
+.gallery>*{
+    flex:1 1 30px;
+}
+
+.picture1, .picture2, .picture3, .picture4, .picture5, .picture6, .picture7, .picture8 {
+    /* align-self: flex-start; */
+    flex-flow: column wrap;
+    flex: 25%;
+}
+
+.picture3 {
+    height: 10rem;    
+}
+
+.picture4 {
+    height: 35rem;
+}
+
+.picture5 {
+    height: 40rem;
+}
+
+.picture6{
+    height: 10rem;
+    width: 10rem;
+}
+.picture7{
+    height: 20rem;
+}
+
+.picture8{
+    height: 12rem;
+    width: 6rem;
+}
