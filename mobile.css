@@ -1,3 +1,103 @@
-body{
-    display: none;
+.header{
+    text-align: center;
 }
+.navbar {
+    flex-direction: column;
+}
+
+.navbar ul li{
+    flex-direction: column;
+    margin: 6px;
+}
+
+.banner {
+    height: 23rem;
+}
+
+.middle-text {
+    padding-top: 0rem;
+}
+
+.banner h3{
+    padding-top: 7rem;
+}
+
+.banner p{
+    padding: 1rem;
+}
+.banner .btn-navbar {
+    margin-top: 4px;
+}
+
+.three-dots{
+    margin-top: 1rem;
+}
+.about{
+    flex-direction: column;
+}
+
+.left .heading{
+    font-size: large;
+}
+
+.left p{
+    font-size: 13px;
+}
+
+.images{
+    flex-direction: column;
+    justify-content: space-between;
+    width: max-content;
+    margin-left: 8rem;
+    background-color: #ffffff;
+}
+
+.images .img2 {
+    height: 10rem;
+}
+
+.images .img3{
+    height: 6rem;
+    width: 12rem;
+}
+
+.images .img4{
+    height: 7rem;
+}
+
+.services {
+    flex-direction: column;
+    width: 18rem;
+    margin: 0;
+}
+
+.service1, .service2, .service3,.service4, .service5, .service6{
+    display: flex;
+    flex: 50%;
+    background-color: #f8f9fa;
+    width: 26rem;
+    margin: 9px;
+    margin-left: 35px;
+    margin-top: 2px;
+}
+
+.icon{
+    margin: 2.5rem;
+}
+
+.menu-bar ul li{
+    margin: 12px;
+}
+
+footer {
+    flex-direction: column;
+}
+footer .address, .links, .our-services{
+    border-bottom: 1px solid #38414b;
+}
+
+footer .links, .our-services, .newsletter {
+    margin-top: 1rem;
+}
+
+

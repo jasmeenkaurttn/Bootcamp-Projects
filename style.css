@@ -32,6 +32,7 @@ select#about {
     padding: 3px;
     border: none;
     background-color: #fff;
+    outline: none;
 }
 .navbar ul {
     float: right;
@@ -110,7 +111,6 @@ select#about {
 .three-dots{
     text-align: center;
     margin-top: 28rem;
-
 }
 
 .dot{
